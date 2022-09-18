@@ -1,0 +1,24 @@
+.todoForm{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todoForm input {
+    width: 80%;
+  height: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+}
+.todoForm button {
+    width: 15%;
+    cursor: pointer;
+    background: green;
+    height: 100%;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+}

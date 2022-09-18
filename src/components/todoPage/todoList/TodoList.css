@@ -1,0 +1,48 @@
+.listContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+ 
+}
+.listContent{
+    width: 100%;
+    height: 50px;
+  display: flex;
+  border:1px solid red;
+  margin-top: 10px;
+  justify-content:space-between;
+  
+    
+}
+.todolistCheck{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 70%;
+    margin-left: 20px;
+}
+.todoContent{
+    margin-left: 20px;
+}
+.edit{
+    height: 70%;
+    background: yellow;
+    width: 10%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.delete{
+    height: 70%;
+    background: red;
+    width: 10%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.edit-delete{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
